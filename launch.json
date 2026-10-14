@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug API",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceFolder}/api/node_modules/.bin/tsx",
+      "program": "${workspaceFolder}/api/src/index.ts",
+      "cwd": "${workspaceFolder}/api",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+    }
+  ]
+}
